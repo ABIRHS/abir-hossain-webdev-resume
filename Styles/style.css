@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 /* Style for the font */
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -370,6 +374,7 @@
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+  text-decoration: none;
 }
 
 .btn-learn-more {
