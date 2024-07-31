@@ -1,4 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+/* Style for the font */
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared styles */
+.section-title-shared {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section-description-shared {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+  width: 852px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 48px;
+
+  /* Font layout  */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* --- SECTION 01 --- */
 
 /* Styles for the navbar section */
 .section-navbar {
@@ -33,13 +64,11 @@
   text-align: center;
 
   /* Hero-bg */
-  position: absolute;
   background-image: url(../assets/Hero-bg.png);
 }
 
 .section-hero-headline {
   /* "In the near future, I hope to become a Developer." */
-  position: static;
   width: 998px;
 
   /* Font layout */
@@ -51,7 +80,6 @@
 
 .section-hero-description {
   /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
-  position: static;
   width: 852px;
   height: 52px;
 
@@ -64,6 +92,76 @@
   font-size: 16px;
   font-weight: 400;
   text-align: center;
+}
+
+/* --- SECTION 02 --- */
+.section-why-web-development {
+  /* Why web development */
+  height: auto;
+
+  /* Auto Layout */
+  align-items: center;
+  margin-left: 148px;
+  margin-right: 152px;
+  margin-top: 74px;
+  padding: 80px 97px 80px 97px;
+
+  /* Style */
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.img-why-web-development {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+}
+
+.webdev-bullet-point {
+  width: 390px;
+  margin: 0px;
+
+  /* Font layout */
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.webdev-description {
+  width: 468px;
+
+  /* Style */
+  opacity: 0.7;
+
+  /* Font layout */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* Linear Gradient */
+.linear-gradient-top,
+.linear-gradient-bottom {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.linear-gradient-mid {
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 /* Styles for the button section */
@@ -98,4 +196,26 @@
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+}
+
+.btn-learn-more {
+  /* Auto Layout */
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+
+  /* Style */
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+
+  /* Font layout */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-hyperlink {
+  text-decoration: none;
 }
