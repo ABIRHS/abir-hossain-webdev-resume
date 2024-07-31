@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.section-margin {
+  margin-top: 90px;
+}
+
 /* --- SECTION 01 --- */
 
 /* Styles for the navbar section */
@@ -162,6 +166,83 @@
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+/* --- SECTION 03 --- */
+.video-container {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  margin-bottom: 151px;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  /* Style */
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+/* --- SECTION 04 --- */
+.coding-skill-container {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  margin-bottom: 111px;
+}
+
+.html-container,
+.css-container,
+.javascript-container {
+  width: 364px;
+
+  /* Auto layout */
+  padding: 40px;
+
+  /* Inside Auto Layout */
+  margin: 0px 24px;
+
+  /* Style */
+  border-radius: 16px;
+}
+
+.html-container {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css-container {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.javascript-container {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.coding-skill-title {
+  /* Font layout */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.coding-skill-subtitle {
+  width: 284px;
+  /* Font layout */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.coding-skill-link {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
 }
 
 /* Styles for the button section */
